@@ -1,6 +1,9 @@
 {
   "name": "example-team-tools",
-  "owner": { "name": "Example team" },
+  "owner": {
+    "name": "Example team"
+  },
+  "description": "Example team plugin marketplace: shared skills and the hooks repos need wherever they are loaded",
   "plugins": [
     {
       "name": "team-standards",
