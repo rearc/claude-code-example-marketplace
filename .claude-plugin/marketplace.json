@@ -1,0 +1,16 @@
+{
+  "name": "example-team-tools",
+  "owner": { "name": "Example team" },
+  "plugins": [
+    {
+      "name": "team-standards",
+      "source": "./plugins/team-standards",
+      "description": "Shared by every team repo: a PR description skill and a guard against force pushes"
+    },
+    {
+      "name": "orders-api-guard",
+      "source": "./plugins/orders-api-guard",
+      "description": "Turned on by orders-api: blocks hand edits to its generated code"
+    }
+  ]
+}

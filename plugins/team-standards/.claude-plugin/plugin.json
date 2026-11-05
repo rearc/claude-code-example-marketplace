@@ -1,0 +1,5 @@
+{
+  "name": "team-standards",
+  "version": "1.0.0",
+  "description": "A PR description skill and a guard against force pushes, shared by every team repo"
+}

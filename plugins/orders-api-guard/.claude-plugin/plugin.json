@@ -1,0 +1,5 @@
+{
+  "name": "orders-api-guard",
+  "version": "1.0.0",
+  "description": "Blocks hand edits to orders-api's generated code"
+}
