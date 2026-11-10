@@ -9,7 +9,8 @@ An example **team plugin marketplace** for Claude Code. Part of the
 | `orders-api-guard` | orders-api only | a hook that blocks hand edits to orders-api's generated code |
 
 Why these are plugins: a repo's own settings hooks apply only when Claude starts in that repo. A
-hook in a plugin the repo turns on applies in every session that loads the repo. And a skill
+hook in a plugin the repo turns on applies when Claude starts in the repo, and a workspace that
+includes the repo can turn the same plugin on. And a skill
 every repo uses is kept once here instead of copied into each repo.
 
 What isn't here: CLAUDE.md, rules and permission rules. Plugins can't carry them; they stay in
@@ -28,7 +29,7 @@ In the repo's `.claude/settings.json`:
 A marketplace in Azure DevOps or another git host uses a git URL instead:
 `{ "source": "git", "url": "https://dev.azure.com/<org>/<project>/_git/<repo>" }`.
 
-Each person installs once per machine:
+Each person installs in each repo that turns the plugins on (the download is shared across repos):
 ```
 claude plugin marketplace add rearc/claude-code-example-marketplace --scope project
 claude plugin install team-standards@example-team-tools --scope project
