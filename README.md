@@ -1,7 +1,7 @@
 # claude-code-example-marketplace
 
-An example **team plugin marketplace** for Claude Code. Part of the
-[claude-code-example-team-setup](https://github.com/rearc/claude-code-example-team-setup) example.
+An example **team plugin marketplace** for Claude Code. Part of a four-repo example of a team Claude Code setup, with
+[orders-api](https://github.com/rearc/claude-code-example-orders-api), [orders-web](https://github.com/rearc/claude-code-example-orders-web) and [orders-workspace](https://github.com/rearc/claude-code-example-orders-workspace).
 
 | Plugin | Turned on by | Holds |
 |---|---|---|
